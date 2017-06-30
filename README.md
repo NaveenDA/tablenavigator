@@ -1,4 +1,4 @@
-# tablenav
+# Tablenav
 Navigate Table like Microsoft's Excel. 
 
 ## Initialization
