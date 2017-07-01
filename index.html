@@ -5,11 +5,78 @@
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-	
+<style type="text/css">	
+nav.navbar{
+	border-radius: 0;
+	background: transparent;
+border: none;
+}
+.navbar-default .navbar-brand,.navbar-default .navbar-brand:hover {
+    color: #fff;
+    
+    margin-right: 22px;
+}
+.main-div{
+height: 720px;
+background-size: cover;
+    background: -webkit-linear-gradient(left,#49ABCA),0 0;
+    background: -o-linear-gradient(right,#49ABCA,#214381);
+    background: -moz-linear-gradient(right,#49ABCA,#214381);
+    background: linear-gradient(to right,#49ABCA,#214381);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #ddd;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:active,.navbar-default .navbar-nav>li>a:visited {
+    color: #ddd;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+</style>
+
 </head>
 <body>
 
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">TableNav</a>
+    </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Examples</a></li>
+        <li><a href="#">Options</a></li>
+        <li><a href="#">Discus</a></li>
+
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+
+  <button type="submit" class="btn btn-primary">Download</button>
+  <button type="submit" class="btn btn-success">Github</button>
+</form>
+ 
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container-fluid main-div">
+	
+</div>
 
 </body>
 </html>
