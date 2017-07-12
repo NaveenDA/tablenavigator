@@ -2,20 +2,20 @@
 <html>
 <head>
  <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A jQuery plugin allows to use arrowkeys navigation for html table as like microsoft's excel">
-
-	<title>Tablenav- Navigate html table as like Microsoft's Excel. </title>
-	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-<link rel="icon" href="./favicon.ico" type="image/x-icon">
-<link rel="stylesheet" href="./css/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="A jQuery plugin allows to use arrowkeys navigation for html table as like microsoft's excel">
+ <title>Tablenav- Navigate html table as like Microsoft's Excel. </title>
+ <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+ <link rel="icon" href="./favicon.ico" type="image/x-icon">
+ <link rel="stylesheet" href="./css/bootstrap.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<style type="text/css">	
-</style>
-	<script>
+<link rel="stylesheet" type="text/css" href="css/prism.css">
+	
+<script>
+	
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -25,9 +25,8 @@
   ga('send', 'pageview');
 
 </script>
-<link rel="stylesheet" type="text/css" href="css/prism.css">
-
 </head>
+	
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <nav class="navbar navbar-default  navbar-fixed-top">
@@ -62,6 +61,7 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+	
 <div class="container-fluid main-div">
 	<div class="row" id="home">
 	<div class="col-md-1"></div>
@@ -88,35 +88,28 @@
 
 	</div>
 
-	<div class="row">
-	<div class="col-md-1"></div>
-		<div class="col-md-10 whiteBG sup-div">
-<span class="sub-bro">Suppoerted Browser</span>
-<table class="table table-bordered bro-table">
-<tr>
-<td class=" col-md-2 text-center"> IE<br><i class="fa fa-internet-explorer"></i> - 9+</td>
-<td class=" col-md-2 text-center whiteBG">Firefox<br><i class="fa fa-firefox"></i> - 52+</td>
-<td class=" col-md-2 text-center">Chrome<br><i class="fa fa-chrome"></i> - 57+</td>
-<td class=" col-md-2 text-center">Safari<br><i class="fa fa-safari"></i> - 9.1+</td>
-<td class=" col-md-2 text-center">Opera<br><i class="fa fa-opera"></i> - 44+</td>
-
-</tr>
-</table>
-		</div>
-	<div class="col-md-1"></div>
-
-		</div>
-
-
-
+<div class="row">
+ <div class="col-md-1"></div>
+ <div class="col-md-10 whiteBG sup-div">
+ <span class="sub-bro">Suppoerted Browser</span>
+ <table class="table table-bordered bro-table">
+  <tr>
+    <td class=" col-md-2 text-center"> IE<br><i class="fa fa-internet-explorer"></i> - 9+</td>
+    <td class=" col-md-2 text-center whiteBG">Firefox<br><i class="fa fa-firefox"></i> - 52+</td>
+    <td class=" col-md-2 text-center">Chrome<br><i class="fa fa-chrome"></i> - 57+</td>
+    <td class=" col-md-2 text-center">Safari<br><i class="fa fa-safari"></i> - 9.1+</td>
+    <td class=" col-md-2 text-center">Opera<br><i class="fa fa-opera"></i> - 44+</td>
+  </tr>
+ </table>
+</div>
+<div class="col-md-1"></div>
+</div>
 </div>
 
 
 <div class="container whiteBG">
-
-
 <h3>Installation</h3>
-<p>TableNav is a the jQuery plugin, used you need jquery before install it,then</p>
+ <p>TableNav is a the jQuery plugin, used you need jquery before install it,then</p>
  <pre><code class="language-markup">&lt;script src=&quot;path/to/jquery.tablenav.js&quot;&gt;&lt;/script&gt;
 &lt;script>
 
@@ -129,19 +122,17 @@ $("table").tabnav();
 
 <h3>Examples</h3>
 <section id="examples">
-	
-<p>You lots of awesome thing using table, here some examples</p>
-
+<p>You can do lots of awesome things using table, here some examples</p>
 <iframe src="./demo/simple.html" style="width: 100%;height: 325px; border: 0;"></iframe>
 <pre><code class="language-markup">
 
 &lt;script>
 
 $(function() {
-$("table").tabnav({
+ $("table").tabnav({
 	input:true,
 	background:'transparent'
-});
+ });
 });
 
 &lt;/script>
@@ -152,10 +143,10 @@ $("table").tabnav({
 &lt;script>
 
 $(function() {
-$("table").tabnav({
+ $("table").tabnav({
 	background:'#89AAE6',
 	input:true
-});
+ });
 });
 
 &lt;/script>
@@ -176,10 +167,10 @@ $("table").tabnav();
 
 <pre><code class="language-markup">&lt;script>
 $(function() {
-$("table").tabnav({
+ $("table").tabnav({
 	input:true,
 	background:'steelblue'
-});
+ });
 });
 
 &lt;/script>
