@@ -4,7 +4,6 @@
  *
  * Copyright Naveen
  * Released under the MIT license.
- *
  * Date: 2018
  */
 (function(factory) {
