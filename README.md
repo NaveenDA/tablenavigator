@@ -3,7 +3,9 @@ jQuery plugin for creating spreadsheet-like data table with input fields and key
 
 ## Initialization
 
-## NM 
+You can install tablenavigator via npm or cdn or local
+
+## NPM 
 ```
 npm install tablenavigator
 ```
