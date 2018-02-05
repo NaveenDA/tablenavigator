@@ -1,0 +1,19 @@
+{
+  "name": "tableNavigator",
+  "version": "2.0.0",
+  "description": "jQuery plugin for creating spreadsheet-like data table with input fields and keyboard navigation support just like the Microsoft Excel ",
+  "main": "src/jquery.tableNavigator.js",
+  "repository": "https://github.com/NaveenDA/tableNavigator.git",
+  "author": "Naveen DA naveenda360@gmail.com",
+  "license": "MIT",
+  "keywords": [
+    "jquery-plugin",
+    "html",
+    "navigation",
+    "table"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "jquery": ">=1.11.0"
+  },
+}
