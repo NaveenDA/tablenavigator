@@ -30,4 +30,4 @@ $(document).ready(function() {
 ```
 
 ## Demo 
-
+https://naveenda.github.io/tablenavigator/
