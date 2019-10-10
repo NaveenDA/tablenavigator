@@ -12,8 +12,22 @@
     "navigation",
     "table"
   ],
-  "dependencies": {},
+  "devDependencies": {
+    "uglify-js": "^3.6.1",
+    "prettier": "^1.18.2"
+  },
   "peerDependencies": {
     "jquery": ">=1.11.0"
+  },
+  "dependencies": {
+    "husky": "^3.0.8"
+  },
+  "scripts": {
+    "minify": "uglifyjs src/jquery.tablenavigator.js -o dist/jquery.tablenavigator.min.js",
+    "copy": "cp src/jquery.tablenavigator.js dist/jquery.tablenavigator.js",
+    "format": "prettier --write src/*"
+  },
+  "husky": {
+    "pre-commit": "npm run format"
   }
 }

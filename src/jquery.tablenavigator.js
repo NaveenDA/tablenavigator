@@ -71,7 +71,7 @@
       }
     });
 
-    function gridTable(element, movement) {
+function gridTable(element, movement) {
       var current = "";
       var column = element.data("col");
       var row = element.parent().data("row");
@@ -116,7 +116,7 @@
       }
     }
     if (settings.click) {
-      jq.find("[data-element]").click(function(event) {
+      jq.find("[data-element]").click(function() {
         jq.find("[data-element]")
           .removeClass(settings.class)
           .end()
